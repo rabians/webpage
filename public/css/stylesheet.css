@@ -1,0 +1,100 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.dropdown, .dropend, .dropstart, .dropup {
+    position: relative;
+    margin-top: 9px;
+    margin-right: 12px;
+    color: rgba(0,0,0,.55);
+}
+.add-to-cart:focus {
+  background-color: green !important;
+  color:white;
+}
+.my-float{
+	margin-top:16px;
+}
+@media (min-width: 992px)
+{
+	.dropdown-menu {
+	    min-width: 30rem !important;
+	}
+}
+.navbar-default .navbar-nav > .dropdown > a {
+    background-color:#222; 
+    color:#FFF;
+}
+.form-inline {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.dropdown .nav-link:hover {
+    text-decoration: underline;
+}
+.btn-outline-light {
+    border-color: #212529!important;
+}
+.sort-font{
+	font-size: 15px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: black;
+}
+.cart_image{
+	width: 90px;
+	height: 70px;
+}
+.main_logo{
+	height: 60px;
+}
+nav
+{
+	font-size: 18px;
+}
+
+@media only screen and (max-width: 992px) 
+{
+	.card-img{
+    height: 350px;
+}
+
+}@media only screen and (max-width: 450px) 
+{
+	.card-img{
+		height: 200px;
+	}
+	body, .btn, .dropdown-menu{
+		font-size: 10px;
+	}
+	.main_logo{
+	height: 40px;
+	}
+	nav
+{
+	font-size: 10px;
+}
+
+}@media only screen and (max-width: 350px) 
+{
+	.card-img{
+    height: 120px;
+}
+body, .btn{
+		font-size: 7px;
+	}
+}
+.footer {
+  position: absolute;
+  width: 100%;
+}
